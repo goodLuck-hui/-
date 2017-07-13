@@ -1,0 +1,12 @@
+<!--mine.wxml-->
+<text>这是mine页面</text>
+ <scroll-view scroll-x="true" bindscrolltoupper="top1" style="width:150px; height:25px">
+    <view class="infos">
+      <view hover-class="clickInfo" class="info1" hover-start-time="0" hover-stay-time="0" id="id1">Info11</view>
+      <view class="info2" id="id2">Info22</view>
+      <view hover-class="clickInfo" id="id3"  class="info3"hover-start-time="0" hover-stay-time="0">Info33</view>
+      <view class="info2" id="id4">Info44</view>
+      <view class="info2" id="id5">Info55</view>
+    </view>
+  </scroll-view>
+  <view class="aa">hello</view>

@@ -1,0 +1,32 @@
+/* mine.wxss */
+.infos{
+  width: 150px;
+  background: yellow;
+  display: flex;
+}
+
+.infos view{
+  width: 66px;
+  height: 50px;
+  margin: 0 10px 0 0;
+  float: left;
+}
+.clickInfo{
+  color: blue;
+}
+
+.info1 {
+  background: red;
+}
+
+.info2 {
+  background: pink;
+}
+
+.info3 {
+  background: greenyellow;
+}
+.aa {
+  margin-top: 600px;
+  text-align: center;
+}
